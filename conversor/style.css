@@ -2,11 +2,13 @@ body {
     text-align: center;
     background-color: #313131;
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
     
 }
 
 img {
-    width: 65%;
+    width: 50%;
+    padding: 10px;
 }
 
 h1 {
@@ -52,5 +54,23 @@ button:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
+
+/*Animação de texto
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }*/
