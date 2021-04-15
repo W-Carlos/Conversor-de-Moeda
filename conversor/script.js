@@ -1,9 +1,13 @@
 function calculaDolar() {
-    let real = Number(document.getElementById('input-real')).value
-    let dolar = Number(document.getElementById('input-dolar')).value
+   var real = document.getElementById('input-real')
+   var dolar = document.getElementById('input-dolar')
+   var res = document.getElementById('res')
 
-    let resultado = real / dolar 
-   // alert(resultado)
-   document.getElementById('res').innerHTML = resultado
+   var real = Number.parseFloat(real.value)
+   var dolar = Number.parseFloat(dolar.value)
+
+   var result = real / dolar
+
+   res.innerHTML = result
    
 }

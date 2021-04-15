@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <img src="my-dolar.gif" alt="Dolar">
     <h1>My Dolars</h1>
     <div>
-        <input type="number" placeholder="Valor em reais">
-        <input placeholder="Valor em Dolar">
+        
+        <input type="number" id="input-real" placeholder="Valor em reais">
+        <input id="input-dolar" placeholder="Valor em Dolar">
 
-        <p>$0</p>
+        <p id="res">$0</p>
 
-        <button>Converter</button>
+        <button onclick="calculaDolar()">Converter</button>
+
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
